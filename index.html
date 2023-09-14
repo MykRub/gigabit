@@ -2,12 +2,297 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap"
+          rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" rel="stylesheet"/>
+    <link href="./style/index.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
 
+<header class="header" id="radio">
+    <div class="header__container _container">
+        <div class="header__logo">
+            <img alt="" class="header__img" src="./img/glogo95.png">
+        </div>
+        <div class="header__phone">
+            <div class="phone__img">
+                <img alt="phone" class="phone__image" src="./img/phone.png">
+            </div>
+            <div class="phone__contact">
+                <p class="contact__number">
+                    <a href="tel:+38099-507-72-32"> 099-507-72-32</a>
+                </p>
+                <p class="contact__number">
+                    <a href="tel:+38068-035-07-49"> 068-035-07-49</a>
+                </p>
+            </div>
+        </div>
+        <div class="header__mail">
+            <div class="mail__img">
+                <img alt="email" class="mail__image" src="./img/mail.png">
+            </div>
+            <div class="mail__email">
+                <p class="email__post">
+                    <a href=""> infogigabait@gmail.com</a>
+                </p>
+            </div>
+        </div>
+        <div class="header__button">
+            <button class="header__btn">Подключить</button>
+        </div>
+    </div>
+
+</header>
+<div class="empty">
+    <nav class="navbar">
+        <div class="navbar__container _container">
+            <ul class="navbar__list">
+                <li class="list__item">Для дома</li>
+                <li class="list__item">Абонентам</li>
+                <li class="list__item">О компании</li>
+                <li class="list__item">Личный кабинет</li>
+                <li class="list__item">Поиск</li>
+            </ul>
+            <ul class="navbar__lang">
+                <li class="lang__item"></li>
+                <li class="lang__item"></li>
+                <li class="lang__item"></li>
+                <li class="lang__item"></li>
+                <li class="lang__item"></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide slide1">
+            <div class="slider-content">
+                <h2 class="slider-title">Заголовок слайда 1</h2>
+                <p class="slider-text">Описание слайда 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="slider-btn">
+                    <button class="slider-button">Узнать больше</button>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide slide2">
+            <div class="slider-content">
+                <h2 class="slider-title">Телевидение</h2>
+                <p class="slider-text">Ваши украинские каналы всегда с Вами!
+                    Смотрите любимые каналы в аналоговом и цифровом качестве.</p>
+                <div class="slider-btn">
+                    <button class="slider-button">Узнать больше</button>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide slide3">
+            <div class="slider-content">
+                <h2 class="slider-title">Скоростной домашний Интернет</h2>
+                <p class="slider-text">
+                    Общайтесь в социальных сетях.
+                    Слушайте любимую музыку.
+                    Играйте в увлекательные игры.
+                    Смотрите фильмы онлайн.
+                    Читайте оперативные новости.</p>
+                <div class="slider-btn">
+                    <button class="slider-button">Узнать больше</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--    <div class="swiper-button-next"></div>-->
+<!--    <div class="swiper-button-prev"></div>-->
+    <div class="swiper-pagination"></div>
+</div>
+
+<section class="news" id="intro">
+
+    <div class="news__container">
+        <div class="news__title">
+            <span>Новости компании</span>
+        </div>
+        <div class="news__cards ">
+            <ul class="cards__list">
+                <li class="card__list__item">
+                    <div class="item__img">
+                        <img alt="image" src="./img/markus-winkler-aId-xYRTlEc-unsplash.jpg">
+                    </div>
+                    <div class="item__content">
+                        <div class="item__title">Облачные хранилища</div>
+                        <div class="item__text">Разрабатываем локальные защищенные
+                            корпоративные хранилища, а также осуществляем
+                            поддержку на протяжении всего времени
+                            пользования
+                        </div>
+                    </div>
+                </li>
+                <li class="card__list__item">
+                    <div class="item__img">
+                        <img alt="image" src="./img/absolutvision-WYd_PkCa1BY-unsplash.jpg">
+                    </div>
+                    <div class="item__content">
+                        <div class="item__title">Облачные хранилища</div>
+                        <div class="item__text">Разрабатываем локальные защищенные
+                            корпоративные хранилища, а также осуществляем
+                            поддержку на протяжении всего времени
+                            пользования
+                        </div>
+                    </div>
+                </li>
+                <li class="card__list__item">
+                    <div class="item__img">
+                        <img alt="image" src="./img/jon-tyson-AN7CTlQaRs8-unsplash.jpg">
+                    </div>
+                    <div class="item__content">
+                        <div class="item__title">Облачные хранилища</div>
+                        <div class="item__text">Разрабатываем локальные защищенные
+                            корпоративные хранилища, а также осуществляем
+                            поддержку на протяжении всего времени
+                            пользования
+                        </div>
+                    </div>
+                </li>
+                <li class="card__list__item">
+                    <div class="item__img">
+                        <img alt="image" src="./img/brett-jordan-LPZy4da9aRo-unsplash.jpg">
+                    </div>
+                    <div class="item__content">
+                        <div class="item__title">Облачные хранилища</div>
+                        <div class="item__text">Разрабатываем локальные защищенные
+                            корпоративные хранилища, а также осуществляем
+                            поддержку на протяжении всего времени
+                            пользования
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <section class="best gradient"  >
+        <div class="best__wrapper">
+            <div class="best__container _container">
+                <div class="best__subtitle">
+                    <h1>Наша компания это</h1>
+                </div>
+                <ul class="best__list">
+                    <li class="best__item">
+                        <div class="best__content">
+                            <div class="best__image">
+                                <img alt="" class="best__img" src="./img/wand-magic-sparkles-solid.svg">
+                            </div>
+                            <div class="best__title">
+                                <p>Быстрая установка</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="best__item">
+                        <div class="best__content">
+                            <div class="best__image">
+                                <img alt="" class="best__img" src="./img/cart-shopping-solid.svg">
+                            </div>
+                            <div class="best__title">
+                                <p>Выгодные тарифы</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="best__item">
+                        <div class="best__content">
+                            <div class="best__image">
+                                <img alt="" class="best__img" src="./img/gauge-high-solid%20(1).svg">
+                            </div>
+                            <div class="best__title">
+                                <p>Быстрая скорость</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="best__item">
+                        <div class="best__content">
+                            <div class="best__image">
+                                <img alt="" class="best__img" src="./img/tv-solid.svg">
+                            </div>
+                            <div class="best__title">
+                                <p>ТВ передачи</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="best__item">
+                        <div class="best__content">
+                            <div class="best__image">
+                                <img alt="" class="best__img" src="./img/headset-solid.svg">
+                            </div>
+                            <div class="best__title">
+                                <p>Поддержка 24/7</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+</section>
+<div class="layer">
+    <div class="layer__first"></div>
+    <div class="layer__second"></div>
+    <div class="layer__third"></div>
+</div>
+<!--<section class="consultation">-->
+<!--    <div class="consultation__container _container">-->
+<!--        <ul class="consultation__list">-->
+<!--            <li class="consultation__item">-->
+<!--                <div class="consultation__img">-->
+<!--                    <img alt="image" src="./img/users-line-solid.svg">-->
+<!--                </div>-->
+<!--                <div class="consultation__content">-->
+<!--                    <div class="consultation__title">Для бизнеса</div>-->
+<!--                    <div class="consultation__text">Создаем кастомизированные программы и сервисы-->
+<!--                        для развития управленческих команд в российских и-->
+<!--                        международных компаниях-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--            <li class="consultation__item">-->
+<!--                <div class="consultation__img">-->
+<!--                    <img alt="image" src="./img/comment-dots-solid.svg">-->
+<!--                </div>-->
+<!--                <div class="consultation__content">-->
+<!--                    <div class="consultation__title">Для бизнеса</div>-->
+<!--                    <div class="consultation__text">Создаем кастомизированные программы и сервисы-->
+<!--                        для развития управленческих команд в российских и-->
+<!--                        международных компаниях-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--            <li class="consultation__item">-->
+<!--                <div class="consultation__img">-->
+<!--                    <img alt="image" src="./img/star-regular.svg">-->
+<!--                </div>-->
+<!--                <div class="consultation__content">-->
+<!--                    <div class="consultation__title">Для бизнеса</div>-->
+<!--                    <div class="consultation__text">Создаем кастомизированные программы и сервисы-->
+<!--                        для развития управленческих команд в российских и-->
+<!--                        международных компаниях-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </div>-->
+<!--</section>-->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="./js/cdnjs.cloudflare.com_ajax_libs_three.js_r134_three.min.js"></script>
+<script src="./js/cdn.jsdelivr.net_npm_vanta@latest_dist_vanta.net.min.js"></script>
+<script src="./js/header/cdnjs.cloudflare.com_ajax_libs_three.js_r134_three.min.js"></script>
+<script src="./js/header/cdn.jsdelivr.net_npm_vanta@latest_dist_vanta.waves.min.js"></script>
+
+<script src="http://atuin.ru/js/art/stars.js" type="text/javascript"></script>
+<script src="./js/index.js"></script>
 </body>
 </html>
