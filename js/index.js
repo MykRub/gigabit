@@ -44,3 +44,16 @@ VANTA.WAVES({
     waveSpeed: 1.30,
     zoom: 1.75
 })
+
+const wifi = document.getElementById('wifi')
+const wifi1 = document.getElementById('wifi1')
+const intro = document.getElementById('headerImg')
+intro.addEventListener('mouseenter', () => {
+    wifi.style.opacity = 0
+    wifi1.style.opacity = 0
+})
+intro.addEventListener('mouseleave', () => {
+    wifi.style.opacity = 1
+    wifi1.style.opacity = 1
+})
+

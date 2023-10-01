@@ -101,6 +101,8 @@ h1, h2, h3, h4, h5, h6 {
     top: 30px;
     max-width: 150px;
     max-height: 78px;
+    opacity: 1; /* Изначально фото полностью непрозрачны */
+    transition: opacity 1s ease;
 
 }
 .wifi1{
@@ -110,27 +112,27 @@ h1, h2, h3, h4, h5, h6 {
     top: 30px;
     max-width: 150px;
     max-height: 78px;
+    rotate: 180deg;
+    opacity: 1; /* Изначально фото полностью непрозрачны */
+    transition: opacity 1s ease;
 
+}
+#headerImg:hover + .wifi+.wifi1 {
+    opacity: 0;
+} /* При наведении фото прозрачны */
+.wifi.active{
+
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
 }
 
 .header__img {
     width: 280px;
     max-height: 100px;
+    transition: 1s;
+}
 
-}
-.header__img:hover {
-    margin: 0 15px 0 15px;
-    transition: ease-in-out 1s;
-
-}
-.header__img:after {
-    margin: 0;
-    transform: rotate(-3deg);
-    transition: ease-out 1s;
-}
-.header__img:hover:after{
-    transition: ease-out 1s;
-}
 
 
 .header__phone {
